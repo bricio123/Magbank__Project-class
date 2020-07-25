@@ -1,0 +1,27 @@
+.back-color {
+  background-color: #443a50;
+  height: 90%;
+
+  &-text_body {
+    height: 12.25rem;
+    &-p_body {
+      width: 100%;
+      font-size: 16px;
+      line-height: 24px;
+      color: #ffffff;
+    }
+  }
+  &-ti-color {
+    font-size: 56px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Helvetica Neue";
+    text-align: center;
+  }
+}
+.Doubts__text__icons {
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Helvetica Neue";
+}
