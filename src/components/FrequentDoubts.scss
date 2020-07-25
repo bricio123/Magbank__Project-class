@@ -1,27 +1,40 @@
 .back-color {
   background-color: #443a50;
-  height: 90%;
-
+  
   &-text_body {
     height: 12.25rem;
+   
     &-p_body {
       width: 100%;
       font-size: 16px;
       line-height: 24px;
       color: #ffffff;
+      
     }
   }
   &-ti-color {
     font-size: 56px;
     color: #ffffff;
     font-weight: 300;
-    font-family: "Helvetica Neue";
+    font-family:"Helvetica Neue";
     text-align: center;
   }
 }
 .Doubts__text__icons {
     font-size: 20px;
     line-height: 24px;
-    color: #ffffff;
+    color: #fff;
     font-family: "Helvetica Neue";
+}
+.first_text{
+   
+    background-color: #3b2e4a !important;
+}
+.text_body {
+    padding: 0 !important;
+    
+}
+
+.card-body p{
+    margin: 0 !important;
 }
