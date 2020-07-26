@@ -14,7 +14,6 @@ const App = () => (
   <div className='App'>
     <Navbar />
     <Hero />
-
     <CreditCard />
     <CardList posts={posts} />
     <CenteredButton>Abra sua conta</CenteredButton>

@@ -1,40 +1,55 @@
 .back-color {
   background-color: #443a50;
-  
+
   &-text_body {
     height: 12.25rem;
-   
+
     &-p_body {
       width: 100%;
       font-size: 16px;
       line-height: 24px;
       color: #ffffff;
-      
     }
   }
   &-ti-color {
     font-size: 56px;
-    color: #ffffff;
+    
     font-weight: 300;
-    font-family:"Helvetica Neue";
+    font-family: "Helvetica Neue";
     text-align: center;
   }
 }
 .Doubts__text__icons {
-    font-size: 20px;
-    line-height: 24px;
-    color: #fff;
-    font-family: "Helvetica Neue";
+  font-size: 20px;
+  line-height: 24px;
+
+  font-family: "Helvetica Neue";
 }
-.first_text{
-   
-    background-color: #3b2e4a !important;
+.first_text {
+  background-color: #3b2e4a !important;
 }
 .text_body {
-    padding: 0 !important;
-    
+  padding: 0 !important;
 }
 
-.card-body p{
-    margin: 0 !important;
+.card-body p {
+  margin: 0 !important;
+}
+@media screen and (max-width: 768px) {
+  .resp-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Doubts__text__icons {
+    display: none;
+  }
+  .credit-text::after {
+    content: "Cartão de crédito e débito";
+    font-size: 20px;
+    line-height: 24px;
+ 
+    font-family: "Helvetica Neue";
+  }
 }
