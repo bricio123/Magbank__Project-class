@@ -25,16 +25,20 @@ const Doubts = () => (
           <h2 className="ti-color">Dúvidas frequentes</h2>
         </Row>
 
-        <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1"  className=''>
-          <Row className=' d-flex flex-row align-items-center' lg="2" xs={1} md={2}>
-            <Col sm={4} className='d-flex'>
-              <ListGroup>
+        <Tab.Container
+          id="list-group-tabs-example"
+          defaultActiveKey="#link1"
+          className=""
+        >
+          <Row lg="2">
+            <Col sm={5} className="d-flex">
+              <ListGroup className="list__icon-faq d-flex justify-content-center align-items-center">
                 <ListGroup.Item
                   action
                   href="#link1"
                   className="bg-transparent border-0"
                 >
-                  <Row className="py-2 mx-5">
+                  <Row className="p-2 ">
                     <span className="d-flex align-items-center justify-content-center">
                       <FontAwesomeIcon
                         icon={faCreditCard}
@@ -42,10 +46,7 @@ const Doubts = () => (
                         className="pad-icons"
                       />
                     </span>
-                    <Col
-                      xs={10}
-                      className="h5 m-0 p-auto-1 d-flex  align-items-center"
-                    >
+                    <Col className="h5 m-0 p-auto-1 d-flex  align-items-center">
                       <h3 className="Doubts__text__icons m-0 p-0">
                         Cartão de crédito e débito
                       </h3>
@@ -57,7 +58,7 @@ const Doubts = () => (
                   href="#link2"
                   className="bg-transparent border-0"
                 >
-                  <Row className="py-2 mx-5">
+                  <Row className="p-2">
                     <span className="d-flex align-items-center">
                       <FontAwesomeIcon
                         icon={faWallet}
@@ -77,7 +78,7 @@ const Doubts = () => (
                   href="#link3"
                   className="bg-transparent border-0"
                 >
-                  <Row className="py-2 mx-5">
+                  <Row className="p-2">
                     <span className="d-flex align-items-center">
                       <FontAwesomeIcon
                         icon={faShieldAlt}
@@ -97,7 +98,7 @@ const Doubts = () => (
                   href="#link4"
                   className="bg-transparent border-0"
                 >
-                  <Row className="py-2 mx-5">
+                  <Row className="p-2">
                     <span className="d-flex align-items-center">
                       <FontAwesomeIcon
                         icon={faUserTie}
@@ -115,7 +116,7 @@ const Doubts = () => (
               </ListGroup>
             </Col>
 
-            <Col sm={8}>
+            <Col sm={12}>
               <Tab.Content>
                 <Tab.Pane eventKey="#link1">
                   <Col className="acor">
@@ -248,7 +249,6 @@ const Doubts = () => (
                 <Tab.Pane eventKey="#link2">
                   <Container />
                 </Tab.Pane>
-
                 <Tab.Pane eventKey="#link3">
                   <Col className="acor">
                     <Accordion
