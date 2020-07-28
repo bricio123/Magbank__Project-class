@@ -11,13 +11,13 @@
       color: #ffffff;
     }
   }
-  &-ti-color {
-    font-size: 56px;
-    
-    font-weight: 300;
-    font-family: "Helvetica Neue";
-    text-align: center;
-  }
+}
+.ti-color{
+  font-size: 56px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 .Doubts__text__icons {
   font-size: 20px;
@@ -49,7 +49,9 @@
     content: "Cartão de crédito e débito";
     font-size: 20px;
     line-height: 24px;
- 
     font-family: "Helvetica Neue";
+  }
+  .list__icon-faq{
+    display: flex;
   }
 }
