@@ -18,7 +18,7 @@ import {
 import "./FrequentDoubts.scss";
 import "./IconText";
 const Doubts = () => (
-  <section className="p-3 text-white back-color ">
+  <section className="p-3 text-white back-color">
     <Container>
       <Col>
         <Row className="d-flex flex-column align-items-center py-5 ">
@@ -31,88 +31,96 @@ const Doubts = () => (
           className=""
         >
           <Row lg="2">
-            <Col sm={5} className="d-flex">
-              <ListGroup className="list__icon-faq d-flex justify-content-center align-items-center">
-                <ListGroup.Item
-                  action
-                  href="#link1"
-                  className="bg-transparent border-0"
-                >
-                  <Row className="p-2 ">
-                    <span className="d-flex align-items-center justify-content-center">
-                      <FontAwesomeIcon
-                        icon={faCreditCard}
-                        size="2x"
-                        className="pad-icons"
-                      />
-                    </span>
-                    <Col className="h5 m-0 p-auto-1 d-flex  align-items-center">
-                      <h3 className="Doubts__text__icons m-0 p-0">
-                        Cartão de crédito e débito
-                      </h3>
-                    </Col>
+            <Col className="d-flex flex-column align-items-center justify-content-center">
+              <ListGroup className="d-flex justify-content-center ">
+                <span className="list__icon-faq" sm={12}>
+                  <ListGroup.Item
+                    action
+                    href="#link1"
+                    className="bg-transparent border-0"
+                  >
+                    <Row className="p-2 ">
+                      <span className="d-flex align-items-center justify-content-center">
+                        <FontAwesomeIcon
+                          icon={faCreditCard}
+                          size="2x"
+                          className="pad-icons"
+                        />
+                      </span>
+                      <Col className="h5 m-0  d-flex  align-items-center">
+                        <h3 className="Doubts__text__icons m-0 p-0">
+                          Cartão de crédito e débito
+                        </h3>
+                      </Col>
+                    </Row>
+                  </ListGroup.Item>
+                  <ListGroup.Item
+                    action
+                    href="#link2"
+                    className="bg-transparent border-0"
+                  >
+                    <Row className="p-2">
+                      <span className="d-flex align-items-center">
+                        <FontAwesomeIcon
+                          icon={faWallet}
+                          size="2x"
+                          className="pad-icons"
+                        />
+                      </span>
+                      <Col className="h5 m-0 p-auto-1 d-flex align-items-center">
+                        <h3 className="Doubts__text__icons m-0 p-0">
+                          Conta e abertura
+                        </h3>
+                      </Col>
+                    </Row>
+                  </ListGroup.Item>
+                  <ListGroup.Item
+                    action
+                    href="#link3"
+                    className="bg-transparent border-0"
+                  >
+                    <Row className="p-2">
+                      <span className="d-flex align-items-center">
+                        <FontAwesomeIcon
+                          icon={faShieldAlt}
+                          size="2x"
+                          className="pad-icons"
+                        />
+                      </span>
+                      <Col className="h5 m-0 p-auto-1 d-flex  align-items-center">
+                        <h3 className="Doubts__text__icons m-0 p-0">
+                          Token digital
+                        </h3>
+                      </Col>
+                    </Row>
+                  </ListGroup.Item>
+                  <ListGroup.Item
+                    action
+                    href="#link4"
+                    className="bg-transparent border-0"
+                  >
+                    <Row className="p-2">
+                      <span className="d-flex align-items-center">
+                        <FontAwesomeIcon
+                          icon={faUserTie}
+                          size="2x"
+                          className="pad-icons"
+                        />
+                      </span>
+                      <Col className="h5 m-0 p-auto-1 d-flex  align-items-center">
+                        <h3 className="Doubts__text__icons m-0 p-0">
+                          Produtos e serviços
+                        </h3>
+                      </Col>
+                    </Row>
+                  </ListGroup.Item>
+                </span>
+                <div>
+                  <Col className="resp-icons"></Col>
+                  <Row className=" flex-column align-items-center py-3 ">
+                    <small className="credit-text my-4"></small>
                   </Row>
-                </ListGroup.Item>
-                <ListGroup.Item
-                  action
-                  href="#link2"
-                  className="bg-transparent border-0"
-                >
-                  <Row className="p-2">
-                    <span className="d-flex align-items-center">
-                      <FontAwesomeIcon
-                        icon={faWallet}
-                        size="2x"
-                        className="pad-icons"
-                      />
-                    </span>
-                    <Col className="h5 m-0 p-auto-1 d-flex align-items-center">
-                      <h3 className="Doubts__text__icons m-0 p-0">
-                        Conta e abertura
-                      </h3>
-                    </Col>
-                  </Row>
-                </ListGroup.Item>
-                <ListGroup.Item
-                  action
-                  href="#link3"
-                  className="bg-transparent border-0"
-                >
-                  <Row className="p-2">
-                    <span className="d-flex align-items-center">
-                      <FontAwesomeIcon
-                        icon={faShieldAlt}
-                        size="2x"
-                        className="pad-icons"
-                      />
-                    </span>
-                    <Col className="h5 m-0 p-auto-1 d-flex  align-items-center">
-                      <h3 className="Doubts__text__icons m-0 p-0">
-                        Token digital
-                      </h3>
-                    </Col>
-                  </Row>
-                </ListGroup.Item>
-                <ListGroup.Item
-                  action
-                  href="#link4"
-                  className="bg-transparent border-0"
-                >
-                  <Row className="p-2">
-                    <span className="d-flex align-items-center">
-                      <FontAwesomeIcon
-                        icon={faUserTie}
-                        size="2x"
-                        className="pad-icons"
-                      />
-                    </span>
-                    <Col className="h5 m-0 p-auto-1 d-flex  align-items-center">
-                      <h3 className="Doubts__text__icons m-0 p-0">
-                        Produtos e serviços
-                      </h3>
-                    </Col>
-                  </Row>
-                </ListGroup.Item>
+                </div>
               </ListGroup>
             </Col>
 
@@ -384,13 +392,6 @@ const Doubts = () => (
             </Col>
           </Row>
         </Tab.Container>
-
-        <div>
-          <Col className="resp-icons"></Col>
-          <Row className=" flex-column align-items-center py-3 ">
-            <small className="credit-text my-4"></small>
-          </Row>
-        </div>
       </Col>
     </Container>
   </section>
