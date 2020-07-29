@@ -19,7 +19,7 @@ import "./FrequentDoubts.scss";
 import "./IconText";
 const Doubts = () => (
   <section className="p-3 text-white back-color">
-    <Container>
+    <Container className="pb-5">
       <Col>
         <Row className="d-flex flex-column align-items-center py-5 ">
           <h2 className="ti-color">Dúvidas frequentes</h2>
@@ -32,7 +32,7 @@ const Doubts = () => (
         >
           <Row lg="2">
             <Col className="d-flex flex-column align-items-center justify-content-center">
-              <ListGroup className="d-flex justify-content-center ">
+              <ListGroup className="d-flex justify-content-center">
                 <span className="list__icon-faq" sm={12}>
                   <ListGroup.Item
                     action
