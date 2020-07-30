@@ -16,7 +16,7 @@ const Footer = () => (
     <Row className="d-flex align-items-center justify-content-center " 
      xm={4}>
       <Col className="d-flex justify-content-center align-items-center">
-        <Image src={Mag} />
+        <Image src={Mag} className='img' />
       </Col>
 
       <Row>
