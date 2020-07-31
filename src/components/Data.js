@@ -12,8 +12,7 @@ import {
 } from "react-bootstrap";
 import "./Data.scss";
 
-function Greeting(props) {
-  
+function Greeting() {
   return
 };
 
@@ -43,8 +42,8 @@ const Data = () => (
           <Form.Control as="select" defaultValue="Escolha...">
             <option>...</option>
             <option>Florianopolis</option>
-            <option>Florianopolis</option>
-            <option>Florianopolis</option>
+            <option>Parana</option>
+            <option>Sao Paulo</option>
           </Form.Control>
         </Form.Group>
 

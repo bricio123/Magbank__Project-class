@@ -48,7 +48,7 @@ const Doubts = () => (
                         />
                       </span>
                       <Col className="h5 m-0  d-flex  align-items-center">
-                        <h3 className="Doubts__text__icons m-0 p-0">
+                        <h3 className="Doubts__text__icons d-none d-lg-flex m-0 p-0">
                           Cartão de crédito e débito
                         </h3>
                       </Col>
@@ -68,7 +68,7 @@ const Doubts = () => (
                         />
                       </span>
                       <Col className="h5 m-0 p-auto-1 d-flex align-items-center">
-                        <h3 className="Doubts__text__icons m-0 p-0">
+                        <h3 className="Doubts__text__icons d-none d-lg-flex m-0 p-0">
                           Conta e abertura
                         </h3>
                       </Col>
@@ -88,7 +88,7 @@ const Doubts = () => (
                         />
                       </span>
                       <Col className="h5 m-0 p-auto-1 d-flex  align-items-center">
-                        <h3 className="Doubts__text__icons m-0 p-0">
+                        <h3 className="Doubts__text__icons d-none d-lg-flex m-0 p-0">
                           Token digital
                         </h3>
                       </Col>
@@ -108,7 +108,7 @@ const Doubts = () => (
                         />
                       </span>
                       <Col className="h5 m-0 p-auto-1 d-flex  align-items-center">
-                        <h3 className="Doubts__text__icons m-0 p-0">
+                        <h3 className="Doubts__text__icons  d-none d-lg-flex  m-0 p-0">
                           Produtos e serviços
                         </h3>
                       </Col>

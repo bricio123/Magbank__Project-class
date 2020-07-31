@@ -1,6 +1,6 @@
 @import '../variables';
 .container__form{
-    display: grid;
+    display: none !important;
     align-items: center;
     justify-content: center; 
     position:fixed;
@@ -12,7 +12,7 @@
   
 }
 .form__all{
-    display: grid;
+    display: none;
     align-items: center;
     width: 495px;
  
