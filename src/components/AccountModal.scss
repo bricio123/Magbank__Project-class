@@ -1,0 +1,36 @@
+@import "../variables";
+
+.button_color{
+   padding: 0.375rem;
+   border-radius: 0.25rem;
+   border: unset;
+   color: $color-white;
+   font-size: 1rem;
+}
+.Form__account {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+.prop_color__text {
+  color: $color_primary;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Roboto" sans-serif;
+}
+.btn-primary{
+    background-color: none;
+    border-color: unset !important;
+}
+.button_color{
+    background: $color_primary !important;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Button } from 'react-bootstrap';
 
-const CenteredButton = ({ children, onClick }) => (
+const CenteredButton = ({onClick,children }) => (
   <Container>
     <Row className='d-flex justify-content-center'>
       <Button
@@ -10,7 +10,7 @@ const CenteredButton = ({ children, onClick }) => (
         size='lg'
         onClick={onClick}
       >
-        {children}
+        {children }
       </Button>
     </Row>
   </Container>
