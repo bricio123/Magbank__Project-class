@@ -1,0 +1,26 @@
+@import '../variables';
+.container__form{
+    display: none !important;
+    align-items: center;
+    justify-content: center; 
+    position:fixed;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.5);
+   width: 100vw;
+   height:110vh;
+   top: -20px;
+  
+}
+.form__all{
+    display: none;
+    align-items: center;
+    width: 495px;
+ 
+    background-color: #fff;
+    
+   top: -50px;
+}
+.button__create{
+    background-color: $color-primary;
+    
+}

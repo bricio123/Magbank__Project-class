@@ -19,7 +19,7 @@ import "./FrequentDoubts.scss";
 import "./IconText";
 const Doubts = () => (
   <section className="p-3 text-white back-color">
-    <Container>
+    <Container className="pb-5">
       <Col>
         <Row className="d-flex flex-column align-items-center py-5 ">
           <h2 className="ti-color">Dúvidas frequentes</h2>
@@ -32,7 +32,7 @@ const Doubts = () => (
         >
           <Row lg="2">
             <Col className="d-flex flex-column align-items-center justify-content-center">
-              <ListGroup className="d-flex justify-content-center ">
+              <ListGroup className="d-flex justify-content-center">
                 <span className="list__icon-faq" sm={12}>
                   <ListGroup.Item
                     action
@@ -48,7 +48,7 @@ const Doubts = () => (
                         />
                       </span>
                       <Col className="h5 m-0  d-flex  align-items-center">
-                        <h3 className="Doubts__text__icons m-0 p-0">
+                        <h3 className="Doubts__text__icons d-none d-lg-flex m-0 p-0">
                           Cartão de crédito e débito
                         </h3>
                       </Col>
@@ -68,7 +68,7 @@ const Doubts = () => (
                         />
                       </span>
                       <Col className="h5 m-0 p-auto-1 d-flex align-items-center">
-                        <h3 className="Doubts__text__icons m-0 p-0">
+                        <h3 className="Doubts__text__icons d-none d-lg-flex m-0 p-0">
                           Conta e abertura
                         </h3>
                       </Col>
@@ -88,7 +88,7 @@ const Doubts = () => (
                         />
                       </span>
                       <Col className="h5 m-0 p-auto-1 d-flex  align-items-center">
-                        <h3 className="Doubts__text__icons m-0 p-0">
+                        <h3 className="Doubts__text__icons d-none d-lg-flex m-0 p-0">
                           Token digital
                         </h3>
                       </Col>
@@ -108,7 +108,7 @@ const Doubts = () => (
                         />
                       </span>
                       <Col className="h5 m-0 p-auto-1 d-flex  align-items-center">
-                        <h3 className="Doubts__text__icons m-0 p-0">
+                        <h3 className="Doubts__text__icons  d-none d-lg-flex  m-0 p-0">
                           Produtos e serviços
                         </h3>
                       </Col>
