@@ -26,7 +26,9 @@ const App = () => {
         Abra sua conta
       </CenteredButton>
 
-      <Institutional />
+      <Institutional  onClick={() => setShowModal(true)}>
+        Abra sua conta
+      </Institutional>
       <Faq />
       <Footer />
       <AccountModal show={showModal} handleClose={() => setShowModal(false)} />

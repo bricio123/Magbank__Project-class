@@ -9,7 +9,7 @@ import {
 import IconText from './IconText';
 import './Institutional.scss';
 
-const Institutional = () => (
+const Institutional = ({children, onClick}) => (
   <section className='institutional text-light py-5'>
     <Container>
       <Row>
@@ -40,8 +40,8 @@ const Institutional = () => (
               Transações mais seguras
             </IconText>
           </div>
-          <Button variant='outline-light' className='mt-5'>
-            Abra sua conta
+          <Button variant='outline-light' className='mt-5' onClick={onClick}>
+            {children}
           </Button>
         </Col>
       </Row>

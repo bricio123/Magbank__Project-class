@@ -1,36 +1,57 @@
 @import "../variables";
 
-.button_color{
-   padding: 0.375rem;
-   border-radius: 0.25rem;
-   border: unset;
-   color: $color-white;
-   font-size: 1rem;
+.modal-content {
+  background: $color_primary !important;
+}
+.button_color {
+  padding: 0.375rem;
+  border-radius: 0.25rem;
+  border: unset;
+  border-color: unset !important;
+  color: $color-black;
+  outline:none;
+  font-size: 1rem;
+  background: $color_white !important;
 }
 .Form__account {
-  animation-name: fade;
+  animation-name: inputs_move;
   animation-duration: 1s;
 }
+.form__all__back {
+  box-shadow: 1px 1px 10px #000;
+}
 .prop_color__text {
-  color: $color_primary;
+  color: #fff;
   font-size: 24px;
   font-weight: 500;
   font-family: "Roboto" sans-serif;
 }
-.btn-primary{
-    background-color: none;
-    border-color: unset !important;
+.btn-primary {
+  background-color: none;
+  border-color: unset !important;
 }
-.button_color{
-    background: $color_primary !important;
+
+.form__inputs {
+  border: 0;
+  background: transparent !important;
+  color: #fff !important;
 }
-@keyframes fade {
-  from {
+.form__inputs::-webkit-input-placeholder{
+  color: #fff !important;
+}
+.form__inputs:focus {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes inputs_move {
+  0% {
     opacity: 0;
-    transform: scale(0.2);
+    transform: translateY(90%);
   }
-  to {
+  100% {
+    
+    transform: translateY(0%);
     opacity: 1;
-    transform: scale(1);
   }
 }
