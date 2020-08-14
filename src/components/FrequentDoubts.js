@@ -17,6 +17,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "./FrequentDoubts.scss";
 import "./IconText";
+
+
 const Doubts = () => (
   <section className="p-3 text-white back-color">
     <Container className="pb-5">

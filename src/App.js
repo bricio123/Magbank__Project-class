@@ -1,38 +1,36 @@
-import React, { useState } from "react";
-import Navbar from "./components/Navbar";
-import CreditCard from "./components/CreditCard";
-import CardList from "./components/CardList";
-import CenteredButton from "./components/CenteredButton";
-import HeroButton from "./components/Hero";
-import Institutional from "./components/Institutional";
-import Faq from "./components/Faq";
-import Footer from "./components/Footer";
-import AccountModal from "./components/AccountModal";
-import "./App.scss";
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import AccountModal from './components/AccountModal';
+import './App.scss';
 
-import posts from "./data/posts";
+import Home from './views/Home';
+import Login from './views/Login';
+import Dashboard from './views/Dashboard';
 
 const App = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <div className="App">
+    <Router>
       <Navbar handleCreateAcc={() => setShowModal(true)} />
-      <HeroButton onClick={() => setShowModal(true)}>Abra sua conta</HeroButton>
 
-      <CreditCard />
-      <CardList posts={posts} />
-      <CenteredButton onClick={() => setShowModal(true)}>
-        Abra sua conta
-      </CenteredButton>
+      <Switch>
+        <Route path='/login'>
+          <Login />
+        </Route>
+        <Route path='/dashboard'>
+          <Dashboard />
+        </Route>
+        <Route path='/'>
+          <Home handleClick={() => setShowModal(true)} />
+        </Route>
+      </Switch>
 
-      <Institutional  onClick={() => setShowModal(true)}>
-        Abra sua conta
-      </Institutional>
-      <Faq />
       <Footer />
       <AccountModal show={showModal} handleClose={() => setShowModal(false)} />
-    </div>
+    </Router>
   );
 };
 
